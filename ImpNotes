@@ -1,0 +1,6 @@
+1. when dealing with import statements remember they are a bit different than require and module.imports
+2. any folder with index file is a module therefor the import path is == import <foldername in case default export is given otherwise specify what to import> form <pathToFolder>
+require and export(ES6) are not compatible to have it both way
+        for example a module should work with require as well as import statements use both
+            export default router
+            module.exports = router
